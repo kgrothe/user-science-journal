@@ -41,7 +41,8 @@ a:focus, a:hover {
 
 blockquote {
   font-style: italic;
-  color: #868e96;
+  font-size: 120%;
+  color: #080c11;  
 }
 
 .section-heading {
