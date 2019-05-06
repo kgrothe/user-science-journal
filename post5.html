@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137801907-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-137801907-1');
+</script>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>User Science Journal</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css " rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Katie Grothe</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Blog
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="post1.html">Post 1</a>
+              <a class="dropdown-item" href="post2.html">Post 2</a>
+              <a class="dropdown-item" href="post3.html">Post 3</a>
+              <a class="dropdown-item" href="post4.html">Post 4</a>
+              <a class="dropdown-item" href="post5.html"><b>Post 5</b></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/flowers.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h2>Project 5:</h2>
+            <h1>Evaluating Accessibility</h1>
+            <h2 class="subheading">A review of The Home Depot website</a></h2>
+            </h2>
+            <span class="meta">Posted by
+              <a href="#">Katie Grothe</a>
+              on May 5, 2019</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--  Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>For this assigment, I analyzed the accessibility of  <a href="https://www.homedepot.com/" target="_blank">The Home Depot</a> website.</p>
+          <img class="img-fluid" src="img/HomeDepotHome3.png" alt="The Home Depot Home Page">
+           
+          <span class="caption text-muted">The Home Depot Home Page</span>
+            <h5>Intended Audience</h5>
+         
+            <p>The Home Depot is the self-proclaimed "world's largest home improvement retailer". Products range from lightbulbs to garages. The Home Depot also rents equipment such 
+                as excavators and backhoes.</p>          
+                   
+            <p>Most customers are home owners, but contracters, handymen, installers, and property managers ("Pro Customers") make up almost half of The Home Depot's customer base.</p>
+            
+            <h5>Purpose of Website</h5>
+
+            <p>The Home Depot website allows customers to shop online for products and services, and offers ideas for DIY projects.</p>
+
+           
+            <h4>Standards and Tools Used</h4>
+
+            <p>How well The Home Depot website meets WGAC 2.0 principles for perception and operation were assessed. Tools used in my evaluation included:</p>
+            <ul>
+            <li>Google Lighthouse Audit Tool</li>
+            <li>WAVE "Web Accessibility Evaluation" Tool</li>
+            <li>Test of screen reader and keyboard to navigate home page</li>
+            </ul>    
+                             
+          <p>I chose to analyze The Home Depot website because its Lighthouse audit score was so low (39) compared to other websites I tested. I also think it is 
+            a website that many different types of people use, although I expect most users are in their 30's or older.</p>       
+             
+          <h4>Perceivable: Web content is able to be sensed by sight, hearing and/or touch</h4>
+          <br>
+                     
+          <h5>Contrast</h5>
+
+          <p>Text needs to be distinguishable from background in order for content to be perceived by users. Both the Lighthouse and WAVE audit tools returned contrast issues. The orange 
+              of Home Depot's distinctive logo is used for buttons, background and some text throughout the site.</p>
+
+          <p>The <a href="https://dequeuniversity.com/rules/axe/3.2/color-contrast" target=_blank>Color Contrast Analyzer</a> linked to in the Lighthouse audit shows the combination of Home 
+            Depot Orange (#f96302) and white as failing the minimum contrast ratio of 4.5:1 with small text.</p>
+         
+          <img class="img-fluid" src="img/ContrastAnalyzer.PNG" alt="Contrast Analyzer/Orange background with white text">           
+          <span class="caption text-muted">Color Contrast Analyzer results for orange background and white text</span>
+
+          <p>Contrast issues also occurred when white text was used on top of an image.</p>
+
+          <img class="img-fluid" src="img/WAVEContrast.PNG" alt="WAVE Contrast results with white text on photo">           
+          <span class="caption text-muted">WAVE audit results for contrast</span>
+
+          <p>Contrast is an issue again in the footer, where contact information and links to account information is displayed using muted blue text on a gray backround.</p>
+
+          <img class="img-fluid" src="img/ContrastFooter2.PNG" alt="Home Depot Footer showing contrast issues">           
+          <span class="caption text-muted">Lighthouse audit results for contrast in footer</span>
+
+          <h5>Reflow</h5>
+          
+          <p>The layout of text needs to be presented in a way that minimizes the need for horizontal scrolling. I tested reflow by following the instructions listed on the 
+            <a href="https://webaim.org/standards/wcag/checklist#sc1.4.3" target=_blank>WCAG 2 Checklist</a>, item 1.4.10, on the WebAIM.org website: setting the browser window to 
+            1280 pixels wide and then zooming the page content to 400%.</p>
+          <p>The site worked pretty well to a point by using the hamburger menu and scrolling vertically to see menu options. I drilled down a few levels into refrigerators and 
+              mini-fridges until the display of text became an issue and horizontal scrolling was required.
+          </p>
+
+          <img class="img-fluid" src="img/Reflow.jpg" alt="Laptop screen with Reflow test">           
+          <span class="caption text-muted">Reflow test (on laptop)</span>         
+          <br>
+          <h5>Alternative Text for Images</h5>
+          <p>Users relying on screen readers will not be able to perceive an image that is not described by text. Both the Lighthouse and WAVE audit tools returned results for missing 
+              alternative text label.</p>
+          <p>The screen reader narrated "link" when reading an image that didn't have an alternative attribute tag, or a url in some cases. Each image also has a 
+             text link below it. WAVE notes that these are "redundant links". If I could only hear what the screen reader was saying, I might not understand that the "link" in the image 
+             of the mower followed by a named link named "mower link" went together.</p>
+
+         <h4>Operable: Users are able to navigate the website</h4>   
+            <br>
+         <h5>Keyboard navigation</h5>
+         <p>The Home Depot website can be navigated without a mouse by tabbing through options. Tabbing seemed to follow the logical order of the site. Learning keyboard shortcuts would 
+            be helpful.</p>
+         
+         <h5>Form labels</h5>
+         Labels for forms should be helpful and informative. The Lighthouse audit identified a potential problem with the form field where a user may enter their email in order to 
+         receive a $5 rebate. 
+         </p>
+
+         <img class="img-fluid" src="img/Form.PNG" alt="Form field">           
+         <span class="caption text-muted">Form field</span>     
+           
+         <p>When I tabbed to this field with narrator on, the screen reader read the "Get $5 off..." sentence above the field, and then "editing text". A user who couldn't see this field 
+             might realize "editing text" means this is where they should enter their email, but the instructions could be clearer. I wonder if this is an error.
+         </p>
+          <h3>Recommendations</h3>
+          <p>To address <b>contrast</b> issues, this website could avoid using the orange and white combination for any small text buttons or information. Orange and black (or dark blue to avoid
+              a Halloween look) are other options that better meet contrast recommendations. 
+          </p>          
+          <img class="img-fluid" src="img/ContrastBlackText.PNG" alt="Contrast Analyzer using black text on orange background">
+           
+          <span class="caption text-muted">Contrast Analyzer with black text on orange background</span>
+
+          <p>The contrast issues in the footer could be easily fixed by choosing less subtle background and text colors.</p>
+
+          <p>To address <b>reflow</b> issues, paragraphs of descriptive text should be made responsive to meet minimum WGAC guidelines.</p>
+
+          <p><b>Alternative text attributes</b> should be added to all images, and particularly to images that are links, as a best practice.</p>
+
+          <p>The <b>form label</b> for the rebate could clearly state to "enter email address".</p>
+
+          <h4>Conclusion</h4>
+          <p>Most of the accessibility issues identified by the WAVE and Lighthouse audit tools for The Home Depot website had to do with contrast and missing alternative text labels. 
+              I think the number of these repeating issues contibuted to the low score in the Lighthouse audit.</p>
+          
+          <h6>Resources</h6>
+          <p><i>Bowman, Jeremy. “Who Is Home Depot's Favorite Customer?” The Motley Fool, The Motley Fool, 25 May 2016, www.fool.com/investing/2016/05/25/who-is-home-depots-favorite-customer.aspx.</i></p>
+        
+         
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Katie Grothe | User Science Journal for WATS 4010 | 2019</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
