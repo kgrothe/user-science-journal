@@ -30,6 +30,7 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
     rel='stylesheet' type='text/css'>
   <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 
 </head>
 
@@ -52,11 +53,12 @@
               Blog
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="post1.html">Post 1</a>
-              <a class="dropdown-item" href="post2.html">Post 2</a>
-              <a class="dropdown-item" href="post3.html">Post 3</a>
-              <a class="dropdown-item" href="post4.html"><b>Post 4</b></a>
-              <a class="dropdown-item" href="post5.html">Post 5</a>
+              <a class="dropdown-item" href="post1.html">General Usability Analysis</a>
+              <a class="dropdown-item" href="post2.html">Usable Design Analysis</a>
+              <a class="dropdown-item" href="post3.html">Usability Test: full site</a>
+              <a class="dropdown-item" href="post4.html"><b>Usability Test: mobile</b></a>
+              <a class="dropdown-item" href="post5.html">Accessibility Analysis</a>
+              <a class="dropdown-item" href="post6.html">Accessibity Retrofit</a>
             </div>
           </li>
           <li class="nav-item">
@@ -93,21 +95,22 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
+          <h3>User Testing of Mobile Site</h3>
           <p>For this assigment, I asked testers to navigate the mobile website for 
             <a href="https://www.oxfordhotelbend.com/" target="_blank">The Oxford Hotel</a>, a boutique hotel in Bend, Oregon.</p>
-         
-            <h5>Testers (5):</h5>
-            <ul>
-              <li>Ages 14, 16, 40-49, 40-49, 50-59</li>                            
-            </ul>
-            <br>
-            <h5>Purpose of Test:</h5>
+                     
+            <h4>Purpose of Test:</h4>
             <ul>
             <li>The main purpose of this test was to examine the usability of this mobile site and the room search feature in particular, 
               and compare findings with my previous analysis of the desktop site.
             </li>
             </ul>
-                   
+
+            <h5>Testers (5):</h5>
+            <ul>
+              <li>Ages 14, 16, 40-49, 40-49, 50-59</li>                            
+            </ul>
+            
           <p>As in the last study, these testers were asked to take look at the home page and gave their initial impressions. They were then asked to attempt some specific tasks.</p>
                     
           <p>I expected that this group of testers would encounter the same issues with finding a room with a kitchen, and might have trouble returning to the home screen from an incomplete reservation.</p>
@@ -164,26 +167,27 @@
 
             <p>The testers all went back to <b>Dining</b> in the hamburger menu. One went to <b>Experience</b> first before remember there was a Dining option.</p>
            
-          <h2>Usability Summary</h2>
+          <h3>Usability Summary</h3>
           <p>Usability testing of the Oxford Hotel mobile website revealed that it has some of the same issues as the full website, and a few new issues. Three of the testers had buffering issues
             when searching for rooms by date. One eventually typed in the hotel website address again. Buffering/slowness wasn't an issue with the full site.</p>          
 
           <p>The hamburger menu and diplay of menu options vertically seems like a plus for the mobile site. The testers seemed to remember the options after seeing them once, and returned to the 
             hamburger menu quickly. The horizontal display of options on the full site gives users more to think about, and seems fine for a full site where a user might be willing to spend more
             time poking around.</p>  
-            <blockquote><b>Using the label <b>Sleep</b> to find rooms doesn't really make sense, however. The testers seemed puzzled by this. A suggestion for improvement would be to keep this simple
-              and use the expected term Rooms instead.</b>
+            <blockquote>Using the label <b>Sleep</b> to find rooms doesn't really make sense, however. The testers seemed puzzled by this. A suggestion for improvement would be to keep this simple
+              and use the expected term Rooms instead.
         </blockquote>  
 
-<blockquote><b>As was the case with the full site, returning home from the booking process wasn't easy for all the testers. Having a more obvious home button is another suggestion for improvement.</b></blockquote>
+        <blockquote>As was the case with the full site, returning home from the booking process wasn't easy for all the testers. Having a more obvious home button is another suggestion for 
+          improvement.</blockquote>
          
 
       <p>Some testers were more willing than others to read through text to find what they need. The preference seems stronger on a mobile site for information to be presented in lists or images
         rather than in paragraphs of text.
       </p>
-          <blockquote><b>As with the full site, another suggestion for improvement would be to allow users to choose the amenities they want and filter their search by amenities. Another
+          <blockquote>As with the full site, another suggestion for improvement would be to allow users to choose the amenities they want and filter their search by amenities. Another
             option could be to have the amenities icons display first, rather than the descriptive paragraphs.
-          </b></blockquote>
+          </blockquote>
           
           <p>Although this site seems mostly well designed for mobile use, some of the design features were distracting to the testers. The bouncing arrow, which is unobtrusive on the full site, is large and 
             was annoying to some of the testers on the mobile version.</p>
@@ -197,7 +201,7 @@
           <span class="caption text-muted">Full website compared to mobile</span>
           <br>
 
-          <blockquote><b>A suggestion for improvement would be to eliminate or separate the text from the images. </b></blockquote>
+          <blockquote>A suggestion for improvement would be to eliminate or separate the text from the images. </blockquote>
                     
           <p>I thought it was interesting that the younger testers this week, as well the youngest tester last week, did not use the back button to try and return home. They knew the hotel name 
             in the upper left corner would get them home, because as one tester stated, "this is what usually works", even though they also noted that this particular logo did not look clickable. 
@@ -220,7 +224,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <a href="#">
+              <a href="#" aria-label="Twitter">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
@@ -228,7 +232,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="#" aria-label="Facebook">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
@@ -236,7 +240,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="#" aria-label="Github">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-github fa-stack-1x fa-inverse"></i>
