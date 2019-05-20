@@ -58,3 +58,8 @@ a:focus, a:hover {
   font-size: 110%;
   color: #080c11;  
 }
+
+.responsive {
+  max-width: 90%;
+  height: auto;
+}
