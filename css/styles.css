@@ -48,11 +48,18 @@ a:focus, a:hover {
   width: 50%;
 }  
 
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 #mainNav .navbar-nav > li.nav-item > a {
     font-size: 18px;    
   }
 
- blockquote {
+blockquote {
   padding-left: 1em;
   font-style: italic;
   font-size: 110%;
@@ -62,4 +69,24 @@ a:focus, a:hover {
 .responsive {
   max-width: 90%;
   height: auto;
+}
+
+h6 {
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+span.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.btn-lg {
+  background-color: lightsteelblue;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 25px 35px;
 }
