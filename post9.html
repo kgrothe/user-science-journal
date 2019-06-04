@@ -82,16 +82,19 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/BlueBackground.jpg')">
+  <header class="masthead" style="background-image: url('img/fog.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h2>WATS 4010:</h2>
-            <h1>User Science and Testing</h1>
+            <h2>Project 9:</h2>
+            <h1>Content Experiment</h1>
+            <h2 class="subheading">A/B Testing using Google Optimize</h2>
             
-            <span class="meta">Spring Quarter 2019</span>
+            <span class="meta">Posted by
+              <a href="#">Katie Grothe</a>
+              on June 3, 2019</span>
 
           </div>
         </div>
@@ -104,8 +107,83 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
+
+          <h3>Content Experiment</h3>
+          <p>For this project, I used Google Optimize to set up an A/B test, set objectives, and then examined the results of the experiment in Google Optimize and Google Analytics.</p>     
+          <p>I had some trouble with my first experiment, ended it and started a new one. I ran the experiment for 2 days.</p>
+          <p>I linked 2 objectives from GA to GO.</p>
+          <ol>
+            <li>Click on button/link</li>
+            <li>Path to the Kittens page</li>            
+          </ol>    
+          <br>
            
-         <h3>Thanks for visiting my User Science Journal!</h3>
+          <h4>Objective 1: Click on button/link</h4>
+          <p>On the original version, I added a big button with instructions to click it. This would take users to the home page:</p>
+
+          <img class="img-fluid" src="img/OriginalButton.PNG" alt="Button on original page">           
+          <span class="caption text-muted">Button on original</span>
+
+          <p>On the variant, I changed the text and made one word a link to the home page:</p>
+
+          <img class="img-fluid" src="img/VariantButton.PNG" alt="Button on variant page">           
+          <span class="caption text-muted">Link on variant</span>
+          <br>
+
+          <h4>Objective 2: Move from home page to Kittens page</h4>
+          <p>On the home page, there are two links, "Photos" takes users to the Kittens page. This is the first button so I was expecting it would get more hits.</p>
+          <br>
+         
+
+          <h3>Optimize Reports</h3>
+          <br>
+          <h4>Summary</h4>
+          <p>I didn't get a Summary Report. I'm guessing with this limited period of time and sessions that there wasn't enough data to create this report.</p>
+          
+          <h4>Improvement Overview</h4>
+
+          <p>The red in this report indicates that the variant performed significantly worse than the original in meeting this goal.</p>
+          <img class="img-center" src="img/ImprovementOverview.PNG" alt="Improvement Overview report">           
+          <span class="caption text-muted">Improvement Overview report for Objective 1</span>
+          <br>
+
+          <h4>Objective Overview</h4>
+          <p>With this report, the performance of the original and variant versions in meeting objectives can be viewed separately or together on a chart. The shaded areas indicate how 
+            likely the goal is to be met, the solid and dashed lines indicate the median.</p>
+            <p>This report was a little difficult to understand and it will take some practice to get used to reading and interpreting these graphs.
+          </p>
+
+          <img class="img-center" src="img/ObjectiveChartOriginal.PNG" alt="Objective report for original version">           
+          <span class="caption text-muted">Objective Report for original version</span>
+          <br>
+          <img class="img-center" src="img/ObjectiveChartVariant.PNG" alt="Objective report for variant">           
+          <span class="caption text-muted">Objective report for Variant</span>
+          <br>
+          <p>The report for the Path to Kittens page goal was not as dramatic. This is the graph with combined data for the original and variant:</p>
+          <img class="img-center" src="img/ObjectChartCombined.PNG" alt="Objective report for destination kittens page">           
+          <span class="caption text-muted">Objective Report for kittens destination page</span>
+          <br>
+          <h3>Google Analytics</h3>
+          <h4>Experiments</h4>
+          <p>Google Analytics and Optimize are integrated. In GA, under the Experiments link, I can compare how well the original page vs. the variant did for sending users to the kittens
+            page:            
+          </p>
+          <img class="img-fluid" src="img/GAPathToKittens.PNG" alt="GA Experiments report">           
+          <span class="caption text-muted">GA experiments report for page destination</span>
+          <br>
+          
+          <h3>Conclusion</h3>
+          <p>Optimize seems like a very useful tool for testing the potential impact of revisions before implementation. It seems important to have clear goals and specific ideas 
+            about how to achieve these goals.</p>
+          <p>In the first experiment I attempted, I changed the color and size of the buttons on the home page. I didn't preview the different sizes and realized later that the 
+            buttons were overlapping when the site was viewed on smaller screens. I then realized there is a preview feature for viewing different screen sizes in Optimize which is very handy.</p> 
+          <p>Overall I think my experiment, other than learning about Optimize and A/B tests, was not very useful. A big button that says "click here" in a trusted site is going to get more clicks 
+            than a word that is not an obvious link. It was not surprising that the results from Optimize were that the original was more likely to meet a goal of clicking on the button or link.</p>
+          
+            
+
+
+        <!-- <h3>Thanks for visiting my User Science Journal!</h3>
          <br>         
         
            <h4>Please click <a href="index.html"><button class="btn-lg" 
@@ -117,7 +195,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         
          <br>
          <img class="img-center" src="img/fog.JPG" alt="Fog in the San Juans">           
-         <span class="caption text-muted">Foggy morning</span>
+         <span class="caption text-muted">Foggy morning</span> -->
     
          
         </div>
