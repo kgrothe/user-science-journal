@@ -109,7 +109,6 @@ div.list-group {
   background-color: green; 
   color: #FFFFFF; 
   border: 1px solid green; 
-  padding: 25px;
-  font-size: 20px;
-  font-weight: 500;
+  padding: 15px;
+  font-size: 15px;  
 }
