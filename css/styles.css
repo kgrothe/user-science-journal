@@ -90,3 +90,26 @@ span.center {
   font-weight: bold;
   padding: 25px 35px;
 }
+
+.list-group-item-info {
+  background-color: plum;
+  color: darkmagenta;
+}
+
+.list-group-item-danger {
+  background-color: peachpuff;
+  color: darkred;
+}
+
+div.list-group {
+  font-weight: 1000;
+}  
+
+.tooltip-inner {
+  background-color: green; 
+  color: #FFFFFF; 
+  border: 1px solid green; 
+  padding: 25px;
+  font-size: 20px;
+  font-weight: 500;
+}

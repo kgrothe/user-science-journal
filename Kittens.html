@@ -11,6 +11,10 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-137801907-1');
+  
+ 
+}
+
 </script>
 
   <meta charset="utf-8">
@@ -100,17 +104,19 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-        
-        <a href="https://upload.wikimedia.org/wikipedia/commons/d/d8/Kitties%21%21.jpg" target="_blank"><img class="img-fluid" src="img/KittenGroup.jpg" alt="Group of kittens"
+          
+           
+        <a href="https://upload.wikimedia.org/wikipedia/commons/d/d8/Kitties%21%21.jpg" target="_blank" data-toggle="tooltip" title="meow meow meow meow meow">
+          <img class="img-fluid" src="img/KittenGroup.jpg" alt="Group of kittens"
           onclick="gtag('event', 'View', {
           'event_category':'Photo',
           'event_label':'Group',
-          'value':1
+          'value':1,
           })"></a>                
         <span class="caption text-muted">Group of kittens</span>
 
        
-        <a href="https://upload.wikimedia.org/wikipedia/commons/1/10/Louis-%26-Chanel-taking-a-nap.jpg" target="_blank"><img class="img-fluid" 
+        <a href="https://upload.wikimedia.org/wikipedia/commons/1/10/Louis-%26-Chanel-taking-a-nap.jpg" target="_blank" data-toggle="tooltip" title="zzzzz"><img class="img-fluid" 
           src="img/NappingKittens.jpg" alt="Two napping kittens"
           onclick="gtag('event', 'View', {
             'event_category':'Photo',
@@ -120,7 +126,7 @@
         </a>                
         <span class="caption text-muted">Napping kittens</span>
        
-        <a href="https://upload.wikimedia.org/wikipedia/commons/0/0b/Kitten_%2804%29_by_Ron.jpg" target="_blank"><img class="img-fluid" src="img/kitten.jpg" alt="One kitten in a field"
+        <a href="https://upload.wikimedia.org/wikipedia/commons/0/0b/Kitten_%2804%29_by_Ron.jpg" target="_blank" data-toggle="tooltip" title="roar!"><img class="img-fluid" src="img/kitten.jpg" alt="One kitten in a field"
           onclick="gtag('event', 'View', {
             'event_category':'Photo',
             'event_label':'Solo',
@@ -192,7 +198,11 @@
     <!-- https://analytics.google.com/analytics/web/?utm_source=marketingplatform.google.com&utm_medium=et&utm_campaign=marketingplatform.google.com%2Fabout%2Fanalytics%2F#/realtime/rt-overview/a134146736w194098880p189585723/ -->
     <!-- https://support.google.com/analytics/answer/1042508 -->
     <!-- https://analytics.google.com/analytics/web/#/a134146736w194098880p189585723/admin/tracking/tracking-code/ -->
-
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip(); 
+        });
+        </script>
 
 </body>
 
