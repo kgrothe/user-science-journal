@@ -41,12 +41,16 @@ a:focus, a:hover {
     color:navy !important;
   }
 
+
+
 .img-fluid {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }  
+
+
 
 .img-center {
   display: block;
